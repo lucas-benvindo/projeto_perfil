@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor01: hsl(0, 0%, 8%);
+    --cor02: hsl(0, 0%, 12%);
+    --cor03: hsl(0, 0%, 20%);
+    --cor04: hsl(75, 94%, 57%);
+    --fonte: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--cor01);
+}
+
+main{
+    background-color: var(--cor02);
+    font-family: var(--fonte);
+    color: white;
+    max-width: 315px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+}
+
+img{
+    border-radius: 50%;
+    max-height: 100px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+header > p{
+    color: var(--cor04);
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+p{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+a{
+    color: white;
+    background-color: var(--cor03);
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 7px;
+}
+
+a:hover{
+    color: var(--cor02);
+    background-color: var(--cor04);
+    transition-duration: 0.7s
+}
+
