@@ -10,9 +10,11 @@
     --fonte: 'Inter', sans-serif;
 }
 
-
 body{
     background-color: var(--cor01);
+}
+
+div#container{
     min-height: 97vh;
     display: flex;
     justify-content: center;
